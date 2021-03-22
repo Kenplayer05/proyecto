@@ -1,0 +1,28 @@
+.orders{
+    padding: 20px;
+}
+
+.avatar{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.avatar{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.container{
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card-body-one{
+    
+    justify-self: start;
+}
+
+.buttons-Nuevo{
+    justify-self: end;
+}

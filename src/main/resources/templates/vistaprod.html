@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla de consulta de información</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/Estilos.css">
+</head>
+<body class="body" background="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Consulta de Informacion</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Depositos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Aplicaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pagos</a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Envelope</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
+          </div>
+        </div> 
+      </nav>
+      <!-- Orders -->
+      <div class="orders">
+        <div class="row">
+            <div class="col-xl-9">
+                <div class="card">
+                    <div class="container">
+                        <div class="card-body-one">
+                            <h4 class="box-title">Active Deposits (2) </h4>
+                        </div>
+                        <div class="buttons-Nuevo">
+                            <button type="button" class="btn bg-info text-white align-justify"></p>Ingresar Registro</button>
+                        </div>
+                    </div>
+                    <div class="card-body--">
+                        <div class="table-stats order-table ov-h">
+                            <table class="table ">
+                                <thead>
+                                    <tr>
+                                        <th class="serial">PROPERTY</th>
+                                        <th><H6>CO-TENANTS</H6></th>
+                                        <th><H6>START DATE</H6></th>
+                                        <th><H6>RATE</H6></th>
+                                        <th><H6>DEPOSIT</H6></th>
+                                        <th><H6>STATUS</H6></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="avatar">
+                                            <div class="round-img">
+                                                <a href="#"><img class="rounded-circle" src="Imagenes/icono 1.png" alt="" width="40 px" height="40 px"></a>
+                                            </div>
+                                            <div>
+                                                3810 Cronin Skyway
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="round-img">
+                                                <a href="#"><img class="rounded-circle" src="Imagenes/icono 2.jpeg" alt="" width="20 px" height="20 px"></a>
+                                            </div>
+                                        </td>
+                                        <td>  <span class="name">22 Dec 2019</span> </td>
+                                        <td> <span class="product">£1,699 +£25</span> </td>
+                                        <td><span class="count">£1,000</span></td>
+                                        <td> <span class="status">Waiting on Co-Tenant Rent Pass</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="avatar">
+                                            <div class="round-img">
+                                                <a href="#"><img class="rounded-circle" src="Imagenes/icono 4.png" alt="" width="40 px" height="40 px"></a>
+                                            </div>
+                                            <div>
+                                                991 Delphine Stream
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="round-img">
+                                                <a href="#"><img class="rounded-circle" src="Imagenes/icono 4.png" alt="" width="20 px" height="20 px"></a>
+                                            </div>
+                                        </td>
+                                        <td> 17 Aug 2019 </td>
+                                        <td>  <span class="name">£1,699 +£25</span> </td>
+                                        <td> <span class="product">£1,000</span> </td>
+                                        <td><span class="count">Waiting on Patch to verify deposit</span></td>
+                                        <td>
+                                            <span class="badge badge-complete">Complete</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> <!-- /.table-stats -->
+                    </div>
+                </div> <!-- /.card -->
+            </div>  <!-- /.col-lg-8 -->
+            <!-- Orders -->
+      <div class="orders">
+        <div class="row">
+            <div class="col-xl-9">
+                <div class="card">
+                    <div class="card-body-two">
+                        <h4 class="box-title">Close Deposits (2) </h4>
+                    </div>
+                    <div class="card-body--">
+                        <div class="table-stats order-table ov-h">
+                            <table class="table ">
+                                <thead>
+                                    <tr>
+                                        <th class="serial">PROPERTY</th>
+                                        <th><H6>CO-TENANTS</H6></th>
+                                        <th><H6>START DATE</H6></th>
+                                        <th><H6>RATE</H6></th>
+                                        <th><H6>DEPOSIT</H6></th>
+                                        <th><H6>STATUS</H6></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="avatar">
+                                            <div class="round-img">
+                                                <a href="#"><img class="rounded-circle" src="Imagenes/casa.jpg" alt="" width="40 px" height="40 px"></a>
+                                            </div>
+                                            <div>
+                                                0283 Arnoldo Crossroad
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="round-img">
+                                                <a href="#"><img class="rounded-circle" src="Imagenes/icono 4.png" alt="" width="20 px" height="20 px"></a>
+                                            </div>
+                                        </td>
+                                        <td>  <span class="name">10 Nov 2019</span> </td>
+                                        <td> <span class="product">£1,699 +£25</span> </td>
+                                        <td><span class="count">£1,000</span></td>
+                                        <td> <span class="status">Close Deposit</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="avatar">
+                                            <div class="round-img">
+                                                <a href="#"><img class="rounded-circle" src="Imagenes/casa.jpg" alt="" width="40 px" height="40 px"></a>
+                                            </div>
+                                            <div>
+                                                602 Brigitte Shoals Apt, 013
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="round-img">
+                                                <a href="#"><img class="rounded-circle" src="Imagenes/icono 1.png" alt="" width="20 px" height="20 px"></a>
+                                            </div>
+                                        </td>
+                                        <td> 24 Aug 2019 </td>
+                                        <td>  <span class="name">£1,699 +£25</span> </td>
+                                        <td> <span class="product">£1,000</span> </td>
+                                        <td><span class="count">Close Deposit</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> <!-- /.table-stats -->
+                    </div>
+                </div> <!-- /.card -->
+            </div>  <!-- /.col-lg-8 -->
+      <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

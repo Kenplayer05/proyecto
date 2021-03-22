@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       
+        <div class="container">
+            <h2>Agregar Catalogo</h2>
+            <form action="#" th:action="@{/guardar}" th:object="${catalogo}" method="post">
+                <input type="hidden" th:field="*{id}" name="id" id="id">
+                <div class="form-group">
+                    <label for="actor">Actor del Catalogo</label>
+                    <input type="text" id="actor" th:field="*{actor}" name="actor"
+                           class="form-control">
+                </div>                
+              
+                
+                <button type="submit" class="btn btn-success">Guardar</button>
+            </form>
+        </div>
+    </body>
+</html>
+    
